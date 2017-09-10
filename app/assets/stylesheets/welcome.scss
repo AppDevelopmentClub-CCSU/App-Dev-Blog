@@ -1,0 +1,127 @@
+.bg-1 
+{ 
+  background-color: white;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+.bg-2 
+{ 
+  background: #AA076B; 
+  background: -webkit-linear-gradient(to left, #AA076B , #61045F); 
+  background: linear-gradient(to left, #AA076B , #61045F); 
+  color: #ffffff;
+}
+
+.bg-3 
+{      
+  background: #ECE9E6; 
+  background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); 
+  background: linear-gradient(to left, #ECE9E6 , #FFFFFF); 
+  color: #555555;
+}
+
+.bg-4 
+{ 
+  background-color: black; 
+  color: #fff;
+}
+
+#grid
+{
+  font-family: Lobster;
+  font-size: 40px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 15.4px;
+  color: #E5433E;
+}
+
+.img-responsive
+{
+  display:inline;
+  width:600px;
+}
+
+.black-logo .img-responsive
+{
+  max-width: auto;
+  width: 200px;
+}
+
+@media only screen and (min-width : 768px)
+{
+  .blackLogo .img-responsive
+  {
+    position: relative;
+    max-width: auto;
+    width: 200px;
+  }
+}
+
+.btn 
+{
+  background-color:transparent;
+  -webkit-border-top-left-radius:0px;
+  -moz-border-radius-topleft:0px;
+  border-top-left-radius:0px;
+  -webkit-border-top-right-radius:0px;
+  -moz-border-radius-topright:0px;
+  border-top-right-radius:0px;
+  -webkit-border-bottom-right-radius:0px;
+  -moz-border-radius-bottomright:0px;
+  border-bottom-right-radius:0px;
+  -webkit-border-bottom-left-radius:0px;
+  -moz-border-radius-bottomleft:0px;
+  border-bottom-left-radius:0px;
+  text-indent:0px;
+  border:1px solid #dcdcdc;
+  display:inline-block;
+  color:#777777;
+  font-family:verdana;
+  font-size:19px;
+  font-style:normal;
+  padding-top:6px;
+  padding-bottom:6px;
+  padding-left:32px;
+  padding-right:32px;
+  text-decoration:none;
+  text-align:center;
+  color: white;
+}
+
+.btn:hover
+{
+ color:#E5433E; background:white;
+  -o-transition:color .1s ease-out, background .1s ease-in;
+  -ms-transition:color .1s ease-out, background .1s ease-in;
+  -moz-transition:color .1s ease-out, background .1s ease-in;
+  -webkit-transition:color .1s ease-out, background .1s ease-in;
+  transition:color .5s ease-out, background .60s ease-in;
+}
+
+.fa-lightbulb-o
+{
+ color: #48187F;
+}
+
+.fa-mobile
+{
+  color: #48187F;
+}
+
+.handshake
+{
+  color: #48187F;
+}
+
+.fa-5x
+{
+  font-size: 8em !important;
+}
+
+.fa-3x
+{
+  font-size: 7.0em !important;
+}

@@ -1,0 +1,55 @@
+.navbar-default
+{
+  background-color: #48187F !important;
+  color: white !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+
+.navbar-nav  li a 
+{
+  color: white !important;
+}
+
+.navbar-nav  li a:hover 
+{
+  color: #FFDC00 !important;
+}
+
+.navbar-brand
+{
+  color: white !important; 
+  font-family: 'Chango', Arial, sans-serif !important;
+}
+
+.fa-terminal
+{
+  color: #FFDC00;
+  font-size: 25px;
+  transform: scale(1.5,1);
+}
+
+button.navbar-toggle:hover
+{
+  background-color: transparent !important;
+}
+
+button.navbar-toggle:focus
+{
+  background-color: #E5433E !important;
+}
+
+button.collapsed:focus
+{
+  background-color: transparent !important;
+}
+
+.icon-bar
+{
+  background-color: #FFDC00 !important;
+}

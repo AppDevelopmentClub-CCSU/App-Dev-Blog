@@ -1,0 +1,14 @@
+<% provide(:page_title, @post.title) %>
+
+<br>
+
+<div class="row">
+	<div class="col-md-12 col-lg-12">
+		<h1><center><%= @post.title %></center></h1>
+		<p><center><%= @post.display_day_published %></center></p>
+		<br>
+		<br>
+		<%= raw(@post.body) %>
+	</div>
+</div>	
+
