@@ -1,0 +1,39 @@
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+body
+{
+  height: 100%;
+  overflow: auto;
+  font: 20px Montserrat, sans-serif;
+  line-height: 1.8;
+}
+
+.container-fluid 
+{
+   padding-top: 70px;
+   padding-bottom: 70px;
+}
+
+#text1 
+ {
+   font-size: 20px;
+   color: gray;
+   font-family: 'VT323', monospace;
+ }
+
+ #text2 
+ {
+   font-size: 20px;
+   color: #48187F;
+   text-align: center;
+   position: relative;
+   bottom: -30px;
+ }
+   
+ .margin 
+ {
+   margin-bottom: 45px;  color: #0074D9;
+ }
