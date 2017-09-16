@@ -9,6 +9,8 @@ body
   overflow: auto;
   font: 20px Montserrat, sans-serif;
   line-height: 1.8;
+  overflow-y: scroll; 
+  -webkit-overflow-scrolling: touch;
 }
 
 .container-fluid 
@@ -37,3 +39,4 @@ body
  {
    margin-bottom: 45px;  color: #0074D9;
  }
+
