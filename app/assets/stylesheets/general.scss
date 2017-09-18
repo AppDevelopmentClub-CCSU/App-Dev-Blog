@@ -1,6 +1,7 @@
 html 
 {
   overflow-y: scroll !important; 
+  overflow-x: hidden !important;
   -webkit-overflow-scrolling: touch !important;
   height: 100%;
 }
