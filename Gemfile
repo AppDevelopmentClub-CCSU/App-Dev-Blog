@@ -9,7 +9,11 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.3'
 # Use sqlite3 as the database for Active Record
+<<<<<<< HEAD
 gem 'pg'
+=======
+gem 'sqlite3'
+>>>>>>> cfef13be2f99f4ad9f934a62d1a0d356a75139f9
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
@@ -21,14 +25,20 @@ gem 'uglifier', '>= 1.3.0'
 
 
 #gems I added
+<<<<<<< HEAD
 gem 'bootstrap-sass', '3.2.0.2'
+=======
+>>>>>>> cfef13be2f99f4ad9f934a62d1a0d356a75139f9
 gem 'bootstrap', '4.0.0.alpha3'
 gem 'jquery-rails'
 gem 'friendly_id', '~> 5.1.0'
 gem "ckeditor"
 gem 'paperclip'
+<<<<<<< HEAD
 gem 'unicorn'
 gem 'aws-sdk', '~> 2'
+=======
+>>>>>>> cfef13be2f99f4ad9f934a62d1a0d356a75139f9
 #up to here
 
 # Use CoffeeScript for .coffee assets and views
@@ -64,5 +74,8 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+<<<<<<< HEAD
 gem 'rails_12factor', group: :production
 ruby "2.4.1"
+=======
+>>>>>>> cfef13be2f99f4ad9f934a62d1a0d356a75139f9

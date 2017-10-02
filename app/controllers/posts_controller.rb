@@ -2,7 +2,11 @@ class PostsController < ApplicationController
 
   before_action :set_post, only: [:show, :edit, :update, :destroy]
 
+<<<<<<< HEAD
   http_basic_authenticate_with name: "ADCADMIN", password: "CHORTLE208", except: [:index, :show]
+=======
+  http_basic_authenticate_with name: "ADC", password: "ADC", except: [:index, :show]
+>>>>>>> cfef13be2f99f4ad9f934a62d1a0d356a75139f9
 
   # GET /posts
   # GET /posts.json

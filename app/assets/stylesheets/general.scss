@@ -1,17 +1,29 @@
+<<<<<<< HEAD
 html 
 {
   overflow-y: scroll !important; 
   overflow-x: hidden !important;
   -webkit-overflow-scrolling: touch !important;
   height: 100%;
+=======
+html {
+    overflow: hidden;
+    height: 100%;
+>>>>>>> cfef13be2f99f4ad9f934a62d1a0d356a75139f9
 }
 
 body
 {
   height: 100%;
+<<<<<<< HEAD
   font: 20px Montserrat, sans-serif;
   line-height: 1.8;
    overflow-x: hidden !important;
+=======
+  overflow: auto;
+  font: 20px Montserrat, sans-serif;
+  line-height: 1.8;
+>>>>>>> cfef13be2f99f4ad9f934a62d1a0d356a75139f9
 }
 
 .container-fluid 
@@ -39,5 +51,9 @@ body
  .margin 
  {
    margin-bottom: 45px;  color: #0074D9;
+<<<<<<< HEAD
  }
 
+=======
+ }
+>>>>>>> cfef13be2f99f4ad9f934a62d1a0d356a75139f9

@@ -12,9 +12,12 @@
 
 ActiveRecord::Schema.define(version: 20170829014444) do
 
+<<<<<<< HEAD
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+=======
+>>>>>>> cfef13be2f99f4ad9f934a62d1a0d356a75139f9
   create_table "ckeditor_assets", force: :cascade do |t|
     t.string "data_file_name", null: false
     t.string "data_content_type"

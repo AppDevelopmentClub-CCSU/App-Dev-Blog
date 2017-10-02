@@ -1,6 +1,7 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
+<<<<<<< HEAD
 
   # config/environments/production.rb
   config.public_file_server.enabled 
@@ -8,6 +9,8 @@ Rails.application.configure do
   config.serve_static_assets = true
   config.assets.compile = true
 
+=======
+>>>>>>> cfef13be2f99f4ad9f934a62d1a0d356a75139f9
   # Code is not reloaded between requests.
   config.cache_classes = true
 
